@@ -1,0 +1,149 @@
+.footer__container {
+	max-width: 1920px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	padding: 50px;
+	gap: 150px;
+	font-family: 'Glacial Indifference', 'Courier New', Courier, monospace;
+	color: #a7845e;
+}
+
+.footer__logo-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer__logo {
+	width: fit-content;
+}
+
+.footer__title {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.footer__navigation-links {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.footer__navigation-link {
+	color: #a7845e;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	text-decoration-thickness: 4px;
+	text-underline-offset: 5px;
+	transition: text-decoration-color 0.2s ease;
+}
+
+.footer__navigation-link:hover {
+	text-decoration-color: #80956d;
+}
+
+.footer__contact-information {
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	font-style: normal;
+}
+
+.footer__contact-information-title {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.footer__contact-information-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.footer__contact-information-anchors {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.footer__contact-information-anchor {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: #a7845e;
+}
+
+.footer__contact-information-anchor-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+}
+
+.footer__contact-information-working-hours {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+@media screen and (max-width: 934px) {
+	.footer__container {
+		gap: 70px;
+	}
+}
+
+@media screen and (max-width: 811px) {
+	.footer__container {
+		padding: 50px 30px;
+	}
+}
+
+@media screen and (max-width: 771px) {
+	.footer__container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__logo-container {
+		align-items: center;
+	}
+
+	.footer__navigation-links {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.footer__contact-information {
+		margin-left: 0;
+		align-items: center;
+	}
+
+	.footer__contact-information-container {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+}
+
+@media screen and (max-width: 581px) {
+	.footer__contact-information-container {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.footer__contact-information-anchors {
+		align-items: center;
+	}
+
+	.footer__contact-information-working-hours {
+		align-items: center;
+	}
+}
