@@ -7,3 +7,10 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	background-color: #f9f8f6;
+	font-family: 'Anton', 'Courier New', Courier, monospace;
+	font-size: 16px;
+	line-height: 24px;
+}
