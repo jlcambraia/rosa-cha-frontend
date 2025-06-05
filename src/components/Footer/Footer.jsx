@@ -1,5 +1,5 @@
 import './Footer.css';
-import logo from '../../../public/logo.png';
+import logo from '../../assets/logo/logo.png';
 import whatsappIcon from '../../assets/icons/whatsapp-icon.png';
 import mailIcon from '../../assets/icons/mail-icon.png';
 

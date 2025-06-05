@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../../public/logo.png';
+import logo from '../../assets/logo/logo.png';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import DesktopNav from '../Navigation/DesktopNav';
