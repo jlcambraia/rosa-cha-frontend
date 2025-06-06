@@ -1,0 +1,59 @@
+.initiatives {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.initiatives__title-container {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	color: #f7868b;
+	margin-bottom: 20px;
+}
+
+.initiatives__title-container-image {
+	width: 16px;
+}
+
+.initiatives__subtitle {
+	font-family: 'Glacial Indifference';
+	text-align: center;
+	color: #a7845e;
+	margin-bottom: 20px;
+}
+
+.initiatives__grid {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(2, 400px); /* altura definida */
+	gap: 20px;
+}
+
+/* Primeiro item ocupa duas linhas (fica mais alto) */
+.initiatives__grid-image:first-of-type {
+	grid-row: span 2;
+	grid-column: 1;
+}
+
+/* Segundo item */
+.initiatives__grid-image {
+	grid-row: 1;
+	grid-column: 2;
+}
+
+/* Terceiro item */
+.initiatives__grid-image:last-of-type {
+	grid-row: 2;
+	grid-column: 2;
+}
+
+/* Imagem preenche o espaço do li */
+.initiatives__grid-image-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
