@@ -1,0 +1,60 @@
+.feedbacks {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 50px 82px;
+}
+
+.feedbacks__title {
+	text-transform: uppercase;
+	text-align: center;
+	color: #a7845e;
+	margin-bottom: 20px;
+}
+
+.feedbacks__subtitle {
+	font-family: 'Glacial Indifference';
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: initial;
+	text-align: center;
+	color: #f7868b;
+	margin-bottom: 20px;
+}
+
+.feedbacks__content {
+	position: relative;
+}
+
+.feedbacks__list {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: minmax(calc((100% - 60px) / 4), 1fr);
+	gap: 20px;
+	list-style-type: none;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.feedbacks__button-left {
+	position: absolute;
+	top: 50%;
+	left: -60px;
+	background-image: url(../../../../assets/icons/placeholders/left-arrow-icon.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.feedbacks__button-right {
+	position: absolute;
+	top: 50%;
+	right: -60px;
+	background-image: url(../../../../assets/icons/placeholders/right-arrow-icon.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
