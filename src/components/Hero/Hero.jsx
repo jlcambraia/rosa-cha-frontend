@@ -1,11 +1,7 @@
 import './Hero.css';
 
 const Hero = () => {
-	return (
-		<section>
-			<div className='hero' />
-		</section>
-	);
+	return <section className='hero' />;
 };
 
 export default Hero;
