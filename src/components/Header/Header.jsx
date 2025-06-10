@@ -22,7 +22,7 @@ const Header = () => {
 	useEffect;
 
 	return (
-		<header>
+		<header className='header'>
 			<div className='header__top-bar'></div>
 			<div className='header__container'>
 				<img
