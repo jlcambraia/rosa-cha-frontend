@@ -1,4 +1,8 @@
 .icons {
+	background-color: #ede3da;
+}
+
+.icons__container {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 30px 50px;
